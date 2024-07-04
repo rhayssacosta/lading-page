@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    background-image: url(imagem\ fundo.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem1 {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-titulo {
+    display: grid;
+    columns: 3;
+    column-fill: balance;
+    column-gap: 3rem;
+    margin-top: 0px;
+    line-height: 10px;
+}
+
+@font-face {
+    font-family: ShopifySans Bold;
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--bold.woff2);
+}
+
+h1 {
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 45px;
+    font-family: "ShopifySans Bold";
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "ShopifySans Bold";
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--medium.woff2);
+    font-family:"ShopifySans Medium";
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--medium.woff2);
+    font-family:"ShopifySans Regular";
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--regular.woff2);
+        }
+    
+.paragrafo1 {
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 23px;
+    font-family: "ShopifySans Regular";
+    font-weight: 50;
+    
+}
+
+.box-insercao {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#imput {
+    margin-right: 0.8rem;
+    width: 300px;
+    height: 38px;
+    border: none;
+    font-size: 13px;
+    border-radius: 4px;
+    padding-left: 1rem;
+    font-family: "ShopifySans Regular";
+}
+
+.button {
+    width: 130px;
+    height: 41px;
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    font-family: "ShopifySans Bold";
+}
+
+.button:hover {
+    background-color: rgb(46, 45, 45);
+    transition: 0.5s;
+    opacity: 30;
+    color: white;
+}
+
+.paragrafo2 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo-2 {
+    font-size: 11.5px;
+    text-align: center;
+    color: white;
+    font-family: "ShopifySans Regular";
+    font-size: 10px;
+    font-weight: 50;
+}
+
+.imagem-note {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.imagemNote {
+    width: 250px;
+}
+
+.box-divisao1 {
+    columns: 3;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+
+}
+
+.box1 , .box2 , .box3 {
+    margin-top: 100px;
+    
+}
+
+#template,
+#cash,
+#perfil {
+    width: 35px;
+    
+}
+
+h2 {
+    font-family: "ShopifySans Regular";
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.paragrafo-caixa {
+    font-family: "ShopifySans Regular";
+    font-size: 12px;
+    color: rgb(146, 141, 141);
+}
+
+.boxDivisao2{
+    width: 100%;
+    
+}
+
+.box-divisao2 {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.logos {
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+}
+
+.paragrafo3 {
+    font-family: "ShopifySans Regular";
+    font-size: 20px;
+    color: rgb(26, 25, 25);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.paragrafo4{
+    font-family: "ShopifySans Bold";
+    font-size: 12px;
+    color: rgb(26, 25, 25);
+    text-align: center;
+}
+
+.divisao-botao {
+    display: flex;
+    justify-content: center;
+}
+
+.button2 {
+    background-color: #088464;
+    width: 130px;
+    height: 41px;
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
+    font-family: "ShopifySans Bold";
+    color:white;
+    margin-top: 20px;
+}
+
+.button2:hover { 
+    background-color: black;
+    transition: 0.5s;
+    opacity: 30;
+    color: #088464; 
+}
+
+.footer {
+    background-color: #f8f7f7;
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+
+h3 {
+    color: #095e48;
+    text-align: center;
+    font-family: "ShopifySans Regular";
+    font-weight: 50;
+    font-size: 23px;
+    padding-top: 80px;
+}
+
+.footer1 {
+    columns: 2;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafoFooter1 {
+    font-family: "ShopifySans Bold";
+    font-size: 14px;
+    padding-right: 148px;
+    
+}
+
+.botao3 {
+    background-color: #f8f7f7;
+    border: none;
+    width: 22px;
+        
+}
+    
+.botao3:hover {
+    background-color: #088464;
+    transition: 0.5s;
+    opacity: 30;
+    border-radius: 10px;
+}
+    
+.botao-plus {
+    width: 15px;
+    background-color: none;
+        
+}
+
+#linha-vertical {
+    width: 450px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 5px;
+    position: relative;
+    left: 350px;
+    
+}
+
+.footer2 {
+    columns: 2;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafoFooter2 {
+    font-family: "ShopifySans Bold";
+    font-size: 14px;
+    padding-right: 200px;
+}
+
+.botao4 {
+    background-color: #f8f7f7;
+    border: none;
+    width: 22px;
+        
+}
+    
+.botao4:hover {
+    background-color: #088464;
+    transition: 0.5s;
+    opacity: 30;
+    border-radius: 10px;
+}
+    
+#linha-vertical2 {
+    width: 450px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 5px;
+    position: relative;
+    left: 350px;
+    
+}
+
+.footer3 {
+    columns: 2;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafoFooter3 {
+    font-family: "ShopifySans Bold";
+    font-size: 14px;
+    padding-right: 105px;
+}
+
+.botao5 {
+    background-color: #f8f7f7;
+    border: none;
+    width: 22px;
+        
+}
+    
+.botao5:hover {
+    background-color: #088464;
+    transition: 0.5s;
+    opacity: 30;
+    border-radius: 10px;
+}
+    
+#linha-vertical3 {
+    width: 450px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 5px;
+    position: relative;
+    left: 350px;
+    
+}
+
+.footer4 {
+    columns: 2;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafoFooter4 {
+    font-family: "ShopifySans Bold";
+    font-size: 14px;
+    padding-right: 40px;
+}
+
+.botao6 {
+    background-color: #f8f7f7;
+    border: none;
+    width: 22px;
+        
+}
+    
+.botao6:hover {
+    background-color: #088464;
+    transition: 0.5s;
+    opacity: 30;
+    border-radius: 10px;
+}
+    
+#linha-vertical4 {
+    width: 450px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 5px;
+    position: relative;
+    left: 350px;
+    
+}
+
+.final {
+    margin: 10px 10px ;
+    margin-left: 65%;
+
+}
+
+.final1{
+    font-family: "ShopifySans Regular";
+    font-size: 13px;
+    text-decoration: none;
+    color: #088464;
+    font-weight: 400;
+    padding-left: 10px;
+}
